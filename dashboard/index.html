@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candle Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Candle · Personal Market Dashboard</p>
+          <h1>필화의 투자 대시보드</h1>
+          <p class="sub">
+            시장 시황, 포트폴리오, 추적 채널, 대응 메모를 한 곳에 모아두는 첫 버전.
+          </p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-label">오늘의 한줄</div>
+          <div class="hero-text">패닉 다음날 반등은 나왔지만, 외국인 복귀 확인 전까지는 추격보다 선별 대응.</div>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="card span-2">
+          <div class="card-head">
+            <h2>시장 스냅샷</h2>
+            <span class="muted">수동 업데이트</span>
+          </div>
+          <div class="stats">
+            <article>
+              <div class="label">KOSPI</div>
+              <div class="value">5,553.92</div>
+              <div class="up">+2.74%</div>
+            </article>
+            <article>
+              <div class="label">KOSDAQ</div>
+              <div class="value">1,121.44</div>
+              <div class="up">+2.24%</div>
+            </article>
+            <article>
+              <div class="label">USD/KRW</div>
+              <div class="value">1,495.2</div>
+              <div class="down">-22.1</div>
+            </article>
+            <article>
+              <div class="label">WTI</div>
+              <div class="value">89.00</div>
+              <div class="flat">+0.07%</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>주요 일정</h2>
+          </div>
+          <ul class="list">
+            <li><strong>03/25</strong> 세미콘 차이나 (~3/27)</li>
+            <li><strong>03/26</strong> 미국 주간 실업수당 청구</li>
+            <li><strong>03/26</strong> 유럽 폐암 학회 ELCC (~3/29)</li>
+          </ul>
+        </section>
+
+        <section class="card span-2">
+          <div class="card-head">
+            <h2>포트폴리오</h2>
+            <span class="muted">현재 캡처 기준</span>
+          </div>
+          <div class="portfolio-table">
+            <div class="row head"><span>종목</span><span>평가금액</span><span>손익률</span><span>Candle 메모</span></div>
+            <div class="row"><span>피에스케이</span><span>약 503만</span><span class="up">+29.46%</span><span>수익 관리 우선. 좋은 종목이지만 일부 익절 후보.</span></div>
+            <div class="row"><span>SK하이닉스</span><span>약 493만</span><span class="flat">+0.05%</span><span>코어 반도체 축. 메모리 내러티브 직접 수혜.</span></div>
+            <div class="row"><span>삼성전자</span><span>약 512만</span><span class="up">+8.89%</span><span>코어 축. 반도체/AI/외국인 수급 확인용.</span></div>
+            <div class="row"><span>지니너스</span><span>약 397만</span><span class="down">-5.60%</span><span>고위험 성장. 숫자 확인 전까진 관찰형.</span></div>
+            <div class="row"><span>리가켐바이오</span><span>약 306만</span><span class="flat">+0.24%</span><span>바이오 내 상대적 질 우위.</span></div>
+            <div class="row"><span>올릭스</span><span>약 497만</span><span class="down">-1.38%</span><span>변동성 관리형.</span></div>
+            <div class="row"><span>로보티즈</span><span>약 518만</span><span class="down">-4.56%</span><span>로봇 테마 민감. 내러티브형.</span></div>
+            <div class="row"><span>현대로템</span><span>약 409만</span><span class="flat">+0.67%</span><span>방산/정책/수주 트랙.</span></div>
+            <div class="row"><span>와이지-원</span><span>약 518만</span><span class="up">+3.56%</span><span>산업재/경기 민감.</span></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>추적 채널</h2>
+          </div>
+          <div class="channel-box">
+            <h3>카이에 de market</h3>
+            <p>고속 큐레이션 + 해석형. 특히 반도체/메모리/거시 연결성 체크용.</p>
+            <ul class="list compact">
+              <li>원천 특종형보단 내러티브 압축형</li>
+              <li>한국 반도체 포트에는 직접 영향 큼</li>
+              <li>바이오는 개별 재료 우선</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>대응 원칙</h2>
+          </div>
+          <ul class="list compact">
+            <li>메모리 강세 논리 재확인 시: 하이닉스/삼성 보유 우위, 피에스케이 추격 금지</li>
+            <li>전쟁/유가 급등 시: 성장주 과열 추격 중단, 방어 우선</li>
+            <li>바이오 뉴스는 임상/계약급인지 먼저 구분</li>
+            <li>외국인 수급 복귀 전까진 반등장 과신 금지</li>
+          </ul>
+        </section>
+
+        <section class="card span-2">
+          <div class="card-head">
+            <h2>다음에 붙일 것</h2>
+          </div>
+          <div class="todo-grid">
+            <div>
+              <h3>v2 후보</h3>
+              <ul class="list compact">
+                <li>포트 편집 기능</li>
+                <li>채널 포스트 로그 연결</li>
+                <li>종목별 상세 메모 페이지</li>
+              </ul>
+            </div>
+            <div>
+              <h3>자동화 후보</h3>
+              <ul class="list compact">
+                <li>시장 지표 자동 갱신</li>
+                <li>텔레그램 공개 채널 새 글 반영</li>
+                <li>리포트 보관함</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
