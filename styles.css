@@ -79,6 +79,14 @@ h1 { margin: 8px 0 10px; font-size: 34px; }
   border-radius: 14px;
   padding: 14px;
 }
+.channel-stack {
+  display: grid;
+  gap: 12px;
+}
+.deltaone {
+  border-color: rgba(255, 209, 102, 0.28);
+  box-shadow: inset 0 0 0 1px rgba(255, 209, 102, 0.06);
+}
 .label { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
 .value { font-size: 24px; font-weight: 700; }
 .up { color: var(--green); }
