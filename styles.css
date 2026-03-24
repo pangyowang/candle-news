@@ -28,7 +28,7 @@ body {
 }
 .hero {
   display: grid;
-  grid-template-columns: 1.6fr 1fr;
+  grid-template-columns: 1.45fr 0.85fr;
   gap: 16px;
   margin-bottom: 16px;
 }
@@ -69,6 +69,29 @@ h1 { margin: 8px 0 10px; font-size: 34px; }
   border-radius: 50%;
   background: linear-gradient(180deg, #ffcf5a, #e10600);
   box-shadow: 0 0 12px rgba(255, 207, 90, 0.8);
+}
+.bull-emblem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background: radial-gradient(circle at center, rgba(255, 209, 102, 0.14), rgba(225, 6, 0, 0.10));
+  border: 1px solid rgba(255, 209, 102, 0.22);
+  padding: 14px;
+  min-height: 220px;
+}
+.bull-emblem svg {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  filter: drop-shadow(0 14px 30px rgba(225, 6, 0, 0.22));
+}
+.emblem-text {
+  margin-top: 8px;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: #ffd9c9;
 }
 .hero-label { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
 .hero-text { font-size: 20px; line-height: 1.4; font-weight: 700; }
