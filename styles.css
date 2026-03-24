@@ -75,23 +75,26 @@ h1 { margin: 8px 0 10px; font-size: 34px; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 18px;
-  background: radial-gradient(circle at center, rgba(255, 209, 102, 0.14), rgba(225, 6, 0, 0.10));
-  border: 1px solid rgba(255, 209, 102, 0.22);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 60% 45%, rgba(225, 6, 0, 0.18), transparent 36%),
+    linear-gradient(180deg, rgba(30, 6, 6, 0.95), rgba(12, 2, 2, 0.98));
+  border: 1px solid rgba(255, 80, 80, 0.18);
   padding: 14px;
-  min-height: 220px;
+  min-height: 240px;
+  overflow: hidden;
 }
 .bull-emblem svg {
   width: 100%;
-  max-width: 260px;
+  max-width: 290px;
   height: auto;
-  filter: drop-shadow(0 14px 30px rgba(225, 6, 0, 0.22));
+  filter: drop-shadow(0 18px 30px rgba(225, 6, 0, 0.24));
 }
 .emblem-text {
-  margin-top: 8px;
-  font-size: 12px;
+  margin-top: 4px;
+  font-size: 11px;
   letter-spacing: 0.22em;
-  color: #ffd9c9;
+  color: #ffb0b0;
 }
 .hero-label { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
 .hero-text { font-size: 20px; line-height: 1.4; font-weight: 700; }
